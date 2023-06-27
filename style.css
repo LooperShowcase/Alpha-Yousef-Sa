@@ -1,0 +1,52 @@
+table {
+  width: 50%;
+}
+h2 {
+  color: rgb(186, 38, 68);
+}
+#valorant {
+  color: rgb(226, 83, 83);
+}
+body {
+  background-color: rgb(131, 5, 30);
+  text-align: center;
+  animation: anima 4s infinite;
+}
+
+@keyframes anima {
+  0% {
+    background-color: rgb(209, 13, 13);
+  }
+  25% {
+    background-color: rgb(1, 212, 232);
+  }
+  50% {
+    background-color: rgba(46, 210, 34, 0.742);
+  }
+  100% {
+    background-color: rgba(41, 21, 219, 0.788);
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #777777;
+}
